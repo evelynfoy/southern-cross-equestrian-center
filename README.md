@@ -1,108 +1,321 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Logo](wireframes/logo.JPG)
 
-Welcome USER_NAME,
+# Southern Cross Equestrian Centre
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+# Goal for this Project
+Welcome to Southern Cross Equestrian Centre. ? 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+?
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+![Responsive Displays](wireframes/different-displays.JPG)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# Table of Contents
+* [UX](#ux "UX")
+    * [User Goals](#user-goals "User Goals")
+    * [User Stories](#user-stories "User Stories")
+    * [Site Owners Goals](#site-owners-goals)
+    * [User Requirements and Expectations](#user-requirements-and-expectations)
+         * [Requirements](#requirements)
+         * [Expectations](#expectations)
+     * [Design Choices](#design-choices)
+        * [Fonts](#fonts)
+        * [Icons](#icons)
+        * [Colours](#colours)
+        * [Structure](#structure)
+    * [Wireframes](#wireframes)
+    * [Features](#features)
+        * [Existing Features](#existing-features)
+            * [Navigation Bar](#navigation-bar)
+            * [Landing Page](#landing-page)
+            ?
+            * [Footer](#footer)
+        * [Features to be implemented](#features-to-be-implemented)
+    * [Technologies used](#technologies-used)
+        * [Languages](#languages)
+        * [Tools and Libraries](#tools-and-libraries)
+    * [Testing](#testing)
+        * [Unfixed Bugs](#unfixed-bugs)
+    * [Deployment](#deployment)
+    * [Credits](#credits)
+# UX
 
-A blue button should appear to click: _Make Public_,
+## User Goals
+* Visually appealing, including images.
+* Easily navigated around.
+* Quality and valuable content.
+* Easily found contact details.
+* Form to directly contact the centre.
+## User Stories
+*?
+## Site owners Goals
+* Promote the centre.
+* Increase the number of members.
+* Increase rankings on search engines.
+### Requirements
+* Easy to navigate on various screen sizes.
+* Clear information on the services provided.
+* Keep the user interested with small bits of information to make them want to engage with the centre.
+* Simple methods of contacting the centre.
+* Visually inviting so users do not leave.
+### Expectations
+* I expect to know if a form has been submitted properly and if items are not filled in, to be prompted.
+* I expect all links to social media sites to be opened in a new tab.
+* I expect all navigation links to work correctly.
+* I expect screen size not to affect the quality of the website.
+* I expect all information to be correct and accurate.
 
-Another blue button should appear to click: _Open Browser_.
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Design Choices
 
-To log into the Heroku toolbelt CLI:
+### Fonts
+?
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Icons
+I will used some icons for my website from the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). These icons will only be used where there is no explination needed to their meaning, social media links, contact links and a hamburger for navigational links on smaller devices. All icons used will be styled and in keeping with the appearance of the website.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Colours
+?
 
-------
 
-## Release History
+I will explain the uses of the varius colours below, starting from top to bottom.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Colour Pallet](wireframes/new-colour-pallet.JPG)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+ 
+ ?
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Structure
+I will be building my website with a mobile first mindset using the iPhone 5/SE (320px) as the smallest screen size for styling to look good on. The screen size breakpoints that I will be using are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap").
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+| Screen Size | Breakpoint |
+| ----------- | ---------- |
+| x-small     | <576px     |
+| small       | => 576px   |
+| medium      | => 768px   |
+| large       | => 992px   |
+| x-large     | => 1200px  |
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+# Wireframes
+I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop my wireframes for my website. I initially created the mobile version and then the wireframes and then scalled it up for both tablet and desktop. Because a requirement is to give little but quality information to the user to make them want to engage with the centre, a one-page website is used. This gets the user through the content and quickly to the contact form and details via scrolling or directly via the navigation bar.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The wireframes are below:
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### [Desktop Wireframe](wireframes/scec_desktop.png "Desktop wireframe")
+### [Tablet Wireframe](wireframes/scec_tablet.png "Tablet wireframe")
+### [Phone Wireframe](wireframes/scec_phone.png "Phone wireframe")
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+# Features
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Existing Features
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Navigation Bar
 
-------
+The navigation bar is fully responsive to allow for various screen sizes. It includes links to manover around the site easily and the centre logo which doubles as a link back to the home screen.
 
-## FAQ about the uptime script
++ Desktop (>=992px)
+\
+&nbsp;
+    ![Navigation bar](wireframes/nav-bar-desktop.JPG)
+    -   Spanning the full width of the device and with all links (Home, About, Events, Contact) to navigate visible, this gives ease and clear use to the end user.
 
-**Why have you added this script?**
+    -   In order for the user to visably see which of the links they are hovering over there is a bar below the text.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+    ![Navigation bar on hover](wireframes/nav-bar-hover.JPG)
+    \
+    &nbsp;
+    -   For the user to know that a link has been clicked there is also a visual aid of the text changing colour.
 
-**How will this affect me?**
+    ![Navigation bar on focus](wireframes/nav-bar-focus.JPG)
+    \
+    &nbsp;
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
++ Small devices (<992px)
+\
+&nbsp;
+    - As the navigation bar would be unuseable in the desktop version on smaller devices, it takes on a hamburger style.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+    \
+    &nbsp;
+![Nav bar on small devices](wireframes/nav-bar-small.JPG)
 
-**So….?**
+    - When pressed, it opens up the main menu with all the links available then.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+    \
+    &nbsp;
+![Nav bar on small devices expanded](wireframes/nav-bar-small-expanded.JPG)
 
-**Can I opt out?**
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+### Landing Page
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
++ The landing page image
+    - The image gives the user instant knowledge of what is involved in the centre, and with added animation draws their eye to the site.
+    - The text gives instant information to the user on what the centre is. With the added animation of fading in slightly behind the image, it makes the user keep interest. 
+    \
+    &nbsp;
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+    ![Landing Page](wireframes/landing-page.JPG)
 
-**Anything more?**
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
+### Welcome Section
 
-Happy coding!
++ The welcome section gives a brief introduction to the user on what the Southern Cross Equestrian Centre is and who is welcome.
+    \
+    &nbsp;
+
+   
+    \
+    &nbsp;
+
+
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+### Footer
+
++ The footer contains the social media links related to the equestrian centre and the copyright text. These social links all open in a new tab for ease of use to the user and also, so the user has an ability to easily come back to the equestrian centre's site.
+    \
+    &nbsp;
+
+    ![Contact Section](wireframes/footer.JPG)
+    \
+    &nbsp;
+
++ There is also a hover effect over the links, again to improve user experiance.
+    \
+    &nbsp;
+
+    ![Contact Section](wireframes/footer-hover.JPG)
+    \
+    &nbsp;
+
+## Features to be Implemented
+
+?
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Technologies used
+
+## Languages
+* [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
+* [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
+
+## Libraries & Framework
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+## Tools
+* [Gitpod](https://www.gitpod.io/ "Gitpod")
+* [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
+* [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+* [Bootstrap](https://getbootstrap.com "Bootstrap")
+* [Colourmind](https://colormind.io/ "colourmind")
+* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+* [Google Fonts](https://fonts.google.com/ "Google Fonts")
+* [Unsplash](https://unsplash.com/ "Unsplash")
+* [Box Shadow Generator](https://html-css-js.com/css/generator/box-shadow/ "html-css-js.com")
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Testing
+
+?
+
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Deployment
+
+Following writing the code then commiting and pushing to GitHub, this project was deployed using GitHub by the following steps.
+
++ Navigate to the repository on github and click <strong>Settings</strong>.
++ Then select <strong>Pages</strong> on the side navigation.
++ Select the <strong>None</strong> dropdown, and then click <strong>master</strong>.
++ Click on the <strong>Save</strong> button.
++ Now the website is now live on https://evelynfoy.github.io/southern-cross-equestrian-center/
++ If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Credits
+
+For code inspiration, help and advice,
+* [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
+
+\
+&nbsp;
+
+For content and style inspiration,
+* [carrickminesequestrian.ie](https://www.carrickminesequestrian.ie/ "Carrickmines Equestrian Centre")
+* [Brennansatown Riding School](https://www.brennanstownrs.ie/ "Brennansatown Riding School")
+* [The Padocks Riding Centre](http://www.paddocks.ie/ "The Padocks Riding Centre")
+
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
