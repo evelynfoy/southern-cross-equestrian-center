@@ -5,10 +5,12 @@
 
 
 # Goal for this Project
-Welcome to Southern Cross Equestrian Centre. ? 
+The goal of this project is to design and build a website to advertise an Equestrian Centre and inspire people 
+to become customers.
 
-?
-
+It should provide information about the centre, what it offers, where it is and how to get there.
+It should provide various means of contacing the organisers, phone numbers, email and submitting a question or query 
+via a form.
 
 
 ![Responsive Displays](wireframes/different-displays.JPG)
@@ -30,8 +32,9 @@ Welcome to Southern Cross Equestrian Centre. ?
     * [Features](#features)
         * [Existing Features](#existing-features)
             * [Navigation Bar](#navigation-bar)
-            * [Landing Page](#landing-page)
-            ?
+            * [Home Page](#home-page)
+            * [Gallery Page](#gallery-page)
+            * [Contact Us Page](#contact-us-page)
             * [Footer](#footer)
         * [Features to be implemented](#features-to-be-implemented)
     * [Technologies used](#technologies-used)
