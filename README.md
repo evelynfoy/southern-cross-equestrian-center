@@ -53,7 +53,14 @@ via a form.
 * Easily found contact details.
 * Form to directly contact the centre.
 ## User Stories
-*?
+* I want to find out where the centre is and what the contact details are.
+* I want to submit a question.
+* I want to find out if it caters for kids.
+* Does it do ride-outs, when and how much does it cost?
+* What levels of experiance do they do lessons for, what is the schedule and rates?
+* Do they do Pony Camps or League competitions? Is there an associated club?
+* Do they take animals in on livery and what is the cost?
+* Is it safe? Is it approved by <a href="https://www.aire.ie/">AIRE</a>.
 ## Site owners Goals
 * Promote the centre.
 * Increase the number of members.
