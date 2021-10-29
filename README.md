@@ -123,14 +123,21 @@ I will be building my website with a mobile first mindset using the iPhone 5/SE 
 &nbsp;
 
 # Wireframes
-I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop my wireframes for my website. I initially created the mobile version and then the wireframes and then scalled it up for both tablet and desktop. Because a requirement is to give little but quality information to the user to make them want to engage with the centre, a one-page website is used. This gets the user through the content and quickly to the contact form and details via scrolling or directly via the navigation bar.
+I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop my wireframes for my website. I initially imagined the desktop design making sure I included
+all the details I wanted in a pleasant and intuitive way. The initial hero image catches the attention and leads on to further more specific information designed to keep the user reading. I then scaled it down for tablets and phones by reducing image sizes and fonts and moving some information to the next line rather.
+There are 3 pages, the home page and then a Gallery page and a Contact Us page. The home page is divided into sections that clearly define its purpose and contain quality information that users will be interested in. Navigation is via the navigation bar and via links to internal anchors on the same page.
 
 The wireframes are below:
 
-
-### [Desktop Wireframe](wireframes/scec_desktop.png "Desktop wireframe")
-### [Tablet Wireframe](wireframes/scec_tablet.png "Tablet wireframe")
-### [Phone Wireframe](wireframes/scec_phone.png "Phone wireframe")
+### [Home Desktop Wireframe](docs/wireframes/Home-Desktop.png "Home Desktop wireframe")
+### [Home Tablet Wireframe](docs/wireframes/Home-Tablet.png "Home Tablet wireframe")
+### [Home Phone Wireframe](docs/wireframes/Home-Phone.png "Home Phone wireframe")
+### [Gallery Desktop Wireframe](docs/wireframes/Home-Desktop.png "Home Desktop wireframe")
+### [Gallery Tablet Wireframe](docs/wireframes/Home-Tablet.png "Home Tablet wireframe")
+### [Gallery Phone Wireframe](docs/wireframes/Home-Phone.png "Home Phone wireframe")
+### [ContactUs Desktop Wireframe](docs/wireframes/ContactUs-Desktop.png "Home Desktop wireframe")
+### [ContactUs Tablet Wireframe](docs/wireframes/ContactUs-Tablet.png "Home Tablet wireframe")
+### [ContactUs Phone Wireframe](docs/wireframes/ContactUs-Phone.png "Home Phone wireframe")
 
 \
 &nbsp;
