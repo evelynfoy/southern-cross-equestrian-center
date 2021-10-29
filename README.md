@@ -320,7 +320,7 @@ For code inspiration, help and advice,
 
 For content and style inspiration,
 * [carrickminesequestrian.ie](https://www.carrickminesequestrian.ie/ "Carrickmines Equestrian Centre")
-* [Brennansatown Riding School](https://www.brennanstownrs.ie/ "Brennansatown Riding School")
+* [Brennanstown Riding School](https://www.brennanstownrs.ie/ "Brennanstown Riding School")
 * [The Padocks Riding Centre](http://www.paddocks.ie/ "The Padocks Riding Centre")
 
 
