@@ -93,8 +93,9 @@ I am using Lato for the main body of text and Oswald for the headings.
 I have used an icon of a horse on my website from the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). 
 
 ### Colours
-I used [Colourmind](https://colormind.io/ "colourmind") to help in the selection of my colour scheme. I loaded the logo image for aire and chose a selection that
-appealed to me. It has natural colors e.g. greens and a contrasting sandy color for a splash of color. It also has a very light shade which is good on the dark green for text.
+I used [Colourmind](https://colormind.io/ "colourmind") to help in the selection of my colour scheme. I loaded the logo image for AIRE (Association of Irish Riding Establishments) which I will be including in my site and chose a selection that appealed to me. It has natural colors e.g. greens and a contrasting sandy color for a splash of color. It also has a very light shade which is good on the dark green for text.
+
+See [here](docs/images/ColorPallet.JPG).
 
 
 ### Structure
