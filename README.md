@@ -87,23 +87,15 @@ via a form.
 ## Design Choices
 
 ### Fonts
-?
+I am using Lato for the main body of text and Oswald for the headings.
 
 ### Icons
-I will used some icons for my website from the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). These icons will only be used where there is no explination needed to their meaning, social media links, contact links and a hamburger for navigational links on smaller devices. All icons used will be styled and in keeping with the appearance of the website.
+I have used an icon of a horse on my website from the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). 
 
 ### Colours
-?
+I used [Colourmind](https://colormind.io/ "colourmind") to help in the selection of my colour scheme. I loaded the logo image for aire and chose a selection that
+appealed to me. It has natural colors e.g. greens and a contrasting sandy color for a splash of color. It also has a very light shade which is good on the dark green for text.
 
-
-I will explain the uses of the varius colours below, starting from top to bottom.
-
-
-![Colour Pallet](wireframes/new-colour-pallet.JPG)
-
-
- 
- ?
 
 ### Structure
 I will be building my website with a mobile first mindset using the iPhone 5/SE (320px) as the smallest screen size for styling to look good on. The screen size breakpoints that I will be using are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap").
