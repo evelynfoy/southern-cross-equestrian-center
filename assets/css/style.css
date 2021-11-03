@@ -1,11 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
+/* Global Variables */
+:root {
+    --dark-green:#13442b;
+    --sandy: #d28c43;
+    --light-green-1: #84B39A;
+    --light-green-2: #84aa9a;
+    --light-white: #ebf4ee;
+}
+
+/* Applies to whole page */
+/* Remove all default margin, padding and border values for easier styling */
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
- body {
+
+body {
      font-family: Lato,sans-serif ;
      font-weight: 300;
- }
+     color: var(--dark-green)
+}
+
+/* Headings and logo */
+h1, h2 {
+    font-family: Oswald, sans-serif;
+    letter-spacing: 5px;
+    color: var(--dark-green);
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
+
+/* Navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+/* Vertically center the logo and menu */
+#menu, #logo {
+    line-height: 75px;;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid var(--sandy)
+}
+
+.active {
+    border-bottom: 2px solid var(--dark-green)
+}
