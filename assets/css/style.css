@@ -33,6 +33,7 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    margin-left: 25px;
 }
 
 /* Navigation links */
@@ -40,6 +41,8 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    float:left;
+    margin-left: 25px;
 }
 
 /* Vertically center the logo and menu */
@@ -66,6 +69,9 @@ h1, h2 {
     border-bottom: 2px solid var(--dark-green)
 }
 
+nav {
+    text-align: center;
+}
 
 /* Hero Image */
 
@@ -123,4 +129,9 @@ h1, h2 {
     #hero-image {
         background: url("../images/hero-image.jpg") no-repeat center center;
     }
+
+    #menu {
+        float: right;
+    }
+    
 }
