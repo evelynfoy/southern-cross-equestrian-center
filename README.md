@@ -314,6 +314,10 @@ Following writing the code then commiting and pushing to GitHub, this project wa
 
 For code inspiration, help and advice,
 * [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
+* [Chris Quinn](https://github.com/2BN-Chris_mentor "Chris Quinn")
+* [Stack Overflow](https://stackoverflow.com/questions/179123/how-to-modify-existing-unpushed-commit-messages "Modify unpushed commit messages")
+* [Git hub documentation](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message "Change a commit message")
+* [Colorhexa](https://www.colorhexa.com/d28c43 "Converting colors from hex to rgb")
 
 \
 &nbsp;

@@ -99,3 +99,22 @@ h1, h2 {
         transform: scale(1.1);
     }
 }
+
+
+/* Slogan */
+
+#slogan, #slogan h2{
+    color: var(--light-white);
+}
+
+#slogan {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    background-color: rgba(210, 140, 67, .7);
+    padding: 10px;
+}
+
