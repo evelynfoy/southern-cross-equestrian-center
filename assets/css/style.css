@@ -133,22 +133,22 @@ nav {
     font-size: 380%;
 }
 
-#welcome {
-    text-align: center;
-    margin: 20px 0 ;
-    font-size: 380%;
+#inspirational-text {
+    text-align: center; 
+    font-size: 1.5rem;
 }
+
+#inspirational-text a {
+    text-decoration: none; 
+    color: sandybrown;
+}
+
 #left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
 
 }
-/* .left-about-heading p, .right-about-heading p {
-    padding: 0 20px;
-    text-align: center;
-    font-size: 1.5rems;
-} */
 
 .left-about-heading, .right-about-heading {
     width: inherit ;
@@ -163,20 +163,23 @@ nav {
     padding: 0 20px;
     text-align: center;
 }
-/* #inspirational-header {
-    text-align: center;
-    margin: 20px 0 ;
-    font-size: 280%;
+
+.contactuslink {
+    text-align: center; 
+    padding: 2rem; 
+    background-color: sandybrown;  
+    height: 2rem; 
+    width:20rem;  
+    font-size: 150%; 
+    margin: 1rem auto ;
 }
 
+.contactuslink a {
+    text-decoration: none; 
+    color: seashell ; 
+    text-align: center;
+}
 
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-} */
 /* For larger screen sizes 800px and over */
 @media screen and (min-width: 80rem) {
     #hero-image {
