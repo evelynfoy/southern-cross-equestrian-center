@@ -127,6 +127,56 @@ nav {
     padding: 1rem;
 }
 
+#inspirational-heading {
+    text-align: center;
+    margin: 20px 0 ;
+    font-size: 380%;
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px 0 ;
+    font-size: 380%;
+}
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+
+}
+/* .left-about-heading p, .right-about-heading p {
+    padding: 0 20px;
+    text-align: center;
+    font-size: 1.5rems;
+} */
+
+.left-about-heading, .right-about-heading {
+    width: inherit ;
+}
+
+.left-about-heading h2, .right-about-heading h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.left-about-heading p, .right-about-heading p {
+    padding: 0 20px;
+    text-align: center;
+}
+/* #inspirational-header {
+    text-align: center;
+    margin: 20px 0 ;
+    font-size: 280%;
+}
+
+
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+} */
 /* For larger screen sizes 800px and over */
 @media screen and (min-width: 80rem) {
     #hero-image {
