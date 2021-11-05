@@ -9,6 +9,9 @@
     --light-white: #ebf4ee;
 }
 
+/* Set base font size for ease of calculation of rems */
+html { font-size: 62.5%; } 
+
 /* Applies to whole page */
 /* Remove all default margin, padding and border values for easier styling */
 * {
@@ -32,28 +35,28 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 280%;
-    margin-left: 25px;
+    font-size: 380%;
+    margin-left: 2.5rem;
 }
 
 /* Navigation links */
 
 #menu {
-    font-size: 110%;
+    font-size: 210%;
     letter-spacing: 4px;
     float:left;
-    margin-left: 25px;
+    margin-left: 2.5rem;
 }
 
 /* Vertically center the logo and menu */
 #menu, #logo {
-    line-height: 75px;;
+    line-height: 7.5rem;;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 25px;
+    margin-right: 2.5rem;
 }
 
 #menu a {
@@ -76,7 +79,7 @@ nav {
 /* Hero Image */
 
 #hero-outer {
-    height: 500px;
+    height: 50rem;
     width: 100%;
     overflow: hidden;
 
@@ -85,7 +88,7 @@ nav {
 }
 
 #hero-image {
-    height: 500px;
+    height: 50rem;
     width: 100%;
     background: url("../images/heroSmaller.jpg") no-repeat center center;
 
@@ -114,18 +117,18 @@ nav {
 }
 
 #slogan {
-    font-size: 130%;
+    font-size: 230%;
     font-family: Oswald, sans-serif;
     letter-spacing: 5px;
     position: absolute;
     top: 20%;
     left: 70%;
     background-color: rgba(210, 140, 67, .7);
-    padding: 10px;
+    padding: 1rem;
 }
 
 /* For larger screen sizes 800px and over */
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 80rem) {
     #hero-image {
         background: url("../images/hero-image.jpg") no-repeat center center;
     }
