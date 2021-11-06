@@ -29,7 +29,6 @@ body {
 /* Headings and logo */
 h1, h2 {
     font-family: Oswald, sans-serif;
-    letter-spacing: 5px;
     color: var(--dark-green);
 }
 
@@ -37,6 +36,8 @@ h1, h2 {
     float: left;
     font-size: 380%;
     margin-left: 2.5rem;
+    letter-spacing: 5px;
+
 }
 
 /* Navigation links */
@@ -123,7 +124,7 @@ nav {
     position: absolute;
     top: 20%;
     left: 70%;
-    background-color: rgba(210, 140, 67, .7);
+    background-color: rgba(19, 68, 43, .5);
     padding: 1rem;
 }
 
@@ -140,7 +141,9 @@ nav {
 
 #inspirational-text a {
     text-decoration: none; 
-    color: sandybrown;
+    font-weight: bold;
+    color: var(--dark-green);
+    font-style: italic;
 }
 
 #left-about {
@@ -167,7 +170,7 @@ nav {
 .contactuslink {
     text-align: center; 
     padding: 2rem; 
-    background-color: sandybrown;  
+    background-color: var(--dark-green);  
     height: 2rem; 
     width:20rem;  
     font-size: 150%; 
@@ -176,8 +179,9 @@ nav {
 
 .contactuslink a {
     text-decoration: none; 
-    color: seashell ; 
+    color: var(--light-white) ; 
     text-align: center;
+    font-weight: bold;
 }
 
 /* For larger screen sizes 800px and over */
