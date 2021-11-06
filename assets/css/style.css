@@ -123,10 +123,11 @@ nav {
     font-family: Oswald, sans-serif;
     letter-spacing: 5px;
     position: absolute;
-    top: 20%;
+    top: 75%;
     left: 70%;
     background-color: rgba(19, 68, 43, .5);
-    padding: 1rem;
+    padding: 0 .5rem;
+    /* display: none; */
 }
 
 #inspirational-heading, #kids-heading, #adults-heading {
