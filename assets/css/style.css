@@ -43,7 +43,7 @@ h1, h2 {
 /* Navigation links */
 
 #menu {
-    font-size: 210%;
+    font-size: 150%;
     letter-spacing: 4px;
     float:left;
     margin-left: 2.5rem;
@@ -63,6 +63,7 @@ h1, h2 {
 #menu a {
     text-decoration: none;
     color: inherit;
+    font-size: 2rem;
 }
 
 #menu a:hover {
@@ -184,6 +185,33 @@ nav {
     font-weight: bold;
 }
 
+
+
+/* Sections Menu */
+
+#sections {
+    width: 100%;
+    background-color: var(--light-green-1);
+}
+
+#sections div {
+    color: var(--light-white);
+    background-color: var(--dark-green);
+    width: 100%;
+    float: left;
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    border:2px solid white;
+    box-sizing: border-box;
+}
+
+#sections a {
+    color: var(--light-white);
+    text-decoration : none;
+    font-size: 2rem;
+}
+
+
 /* For larger screen sizes 800px and over */
 @media screen and (min-width: 80rem) {
     #hero-image {
@@ -192,6 +220,23 @@ nav {
 
     #menu {
         float: right;
+        font-size: 210%;
+    }
+
+    #sections > div {
+        width: 25%;
+        padding: 2rem 0;
+        float:left;
     }
     
+}
+
+/* For medium screens size from 950px wide and upwards */
+
+@media screen and (min-width: 9595rem) {
+    #sections > div {
+        width: 25%;
+        padding: 2rem 0;
+        float:left;
+    }
 }
