@@ -129,13 +129,13 @@ nav {
     padding: 1rem;
 }
 
-#inspirational-heading, #kids-heading {
+#inspirational-heading, #kids-heading, #adults-heading {
     text-align: center;
     margin: 20px 0 ;
     font-size: 380%;
 }
 
-#inspirational-text, #kids-text {
+#inspirational-text, #kids-text, #adults-text {
     text-align: center; 
     font-size: 1.5rem;
 }
@@ -189,12 +189,12 @@ nav {
 
 /* Sections Menu */
 
-#sections, #kids-menu {
+#sections, #kids-menu, #adults-menu {
     width: 100%;
     background-color: var(--light-green-1);
 }
 
-#sections div, #kids-menu div {
+#sections div, #kids-menu div ,#adults-menu div {
     color: var(--light-white);
     background-color: var(--dark-green);
     width: 100%;
@@ -205,7 +205,7 @@ nav {
     box-sizing: border-box;
 }
 
-#sections a,  #kids-menu a  {
+#sections a,  #kids-menu a,#adults-menu a  {
     color: var(--light-white);
     text-decoration : none;
     font-size: 2rem;
@@ -223,7 +223,7 @@ nav {
         font-size: 210%;
     }
 
-    #sections > div {
+    #sections > div, #adults-menu > div {
         width: 25%;
         padding: 2rem 0;
         float:left;
