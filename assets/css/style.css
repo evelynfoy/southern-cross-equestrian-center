@@ -175,7 +175,8 @@ nav {
     height: 2rem; 
     width:20rem;  
     font-size: 150%; 
-    margin: 1rem auto ;
+    margin: 2rem auto ;
+    clear: both;
 }
 
 .contactuslink a {
@@ -192,6 +193,7 @@ nav {
 #sections, #kids-menu, #adults-menu {
     width: 100%;
     background-color: var(--light-green-1);
+    clear: both
 }
 
 #sections div, #kids-menu div ,#adults-menu div {
@@ -211,6 +213,30 @@ nav {
     font-size: 2rem;
 }
 
+#about {
+    margin-left: auto;
+    margin-right: auto;;
+}
+
+#about-heading {
+    background-color: var(--dark-green); 
+    color: var(--light-white); 
+    text-align: center; 
+    font-size: 300%;
+}
+
+#about-text {
+    font-size: 175%; 
+    line-height: 3rem; 
+    margin-left: 2rem; 
+    margin-top: 2rem;  
+    float: left;
+}
+
+#about-text h2 {
+    text-align: center; 
+    font-weight: bold;
+}
 
 /* For larger screen sizes 800px and over */
 @media screen and (min-width: 80rem) {
@@ -223,6 +249,11 @@ nav {
         font-size: 210%;
     }
 
+    #image-right {
+        float: right;
+        width: 25%;
+    }
+
     #sections > div, #adults-menu > div {
         width: 25%;
         padding: 2rem 0;
@@ -233,6 +264,18 @@ nav {
         width: 20%;
         padding: 2rem 0;
         float:left;
+    }
+
+    #image-right {
+        width: 40%; 
+    }
+
+    #about-text {
+        padding-left: 2em;
+    }
+
+    #content {
+        margin-top:2rem;
     }
     
 }
@@ -250,5 +293,9 @@ nav {
         width: 20%;
         padding: 2rem 0;
         float:left;
+    }
+
+    #image-right {
+        width: 40%; 
     }
 }
