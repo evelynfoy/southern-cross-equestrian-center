@@ -130,7 +130,7 @@ nav {
     /* display: none; */
 }
 
-#inspirational-heading, #kids-heading, #adults-heading {
+#inspirational-heading, #kids-heading, #adults-heading, #gallery-heading {
     text-align: center;
     margin: 20px 0 ;
     font-size: 380%;
@@ -239,6 +239,28 @@ nav {
     font-weight: bold;
 }
 
+/* #container {
+    display: flex;
+} */
+
+/* #photo {
+    color:blanchedalmond;
+} */
+
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 1;
+    column-gap: .5rem;
+}
+
+#gallery > img {
+    width: 100%;
+    padding-bottom: .5rem;
+}
+
+
+
 /* For larger screen sizes 800px and over */
 @media screen and (min-width: 80rem) {
     #hero-image {
@@ -278,12 +300,16 @@ nav {
     #content {
         margin-top:2rem;
     }
+
+    #gallery {
+        column-count: 2;
+    }
     
 }
 
 /* For medium screens size from 950px wide and upwards */
 
-@media screen and (min-width: 950rem) {
+@media screen and (min-width: 95rem) {
     #sections > div {
         width: 25%;
         padding: 2rem 0;
@@ -298,5 +324,9 @@ nav {
 
     #image-right {
         width: 40%; 
+    }
+
+    #gallery {
+        column-count: 2;
     }
 }
