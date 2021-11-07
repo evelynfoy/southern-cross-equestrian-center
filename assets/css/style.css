@@ -239,14 +239,6 @@ nav {
     font-weight: bold;
 }
 
-/* #container {
-    display: flex;
-} */
-
-/* #photo {
-    color:blanchedalmond;
-} */
-
 #gallery {
     clear: both;
     line-height: 0;
@@ -261,7 +253,7 @@ nav {
 
 
 
-/* For larger screen sizes 800px and over */
+/* For larger screen sizes 80rem and over */
 @media screen and (min-width: 80rem) {
     #hero-image {
         background: url("../images/hero-image.jpg") no-repeat center center;
@@ -295,6 +287,8 @@ nav {
 
     #about-text {
         padding-left: 2em;
+        width: 50%;
+
     }
 
     #content {
