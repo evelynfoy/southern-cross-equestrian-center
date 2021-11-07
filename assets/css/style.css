@@ -123,7 +123,7 @@ nav {
     font-family: Oswald, sans-serif;
     letter-spacing: 5px;
     position: absolute;
-    top: 75%;
+    top: 65%;
     left: 70%;
     background-color: rgba(19, 68, 43, .5);
     padding: 0 .5rem;
@@ -254,7 +254,7 @@ nav {
 
 
 /* For larger screen sizes 80rem and over */
-@media screen and (min-width: 80rem) {
+@media screen and (min-width: 70rem) {
     #hero-image {
         background: url("../images/hero-image.jpg") no-repeat center center;
     }
@@ -262,6 +262,11 @@ nav {
     #menu {
         float: right;
         font-size: 210%;
+    }
+
+    #slogan {
+        top: 75%;
+        left: 70%;
     }
 
     #image-right {
@@ -304,6 +309,11 @@ nav {
 /* For medium screens size from 950px wide and upwards */
 
 @media screen and (min-width: 95rem) {
+
+    #slogan {
+        top: 75%;
+        left: 70%;
+    }
     #sections > div {
         width: 25%;
         padding: 2rem 0;
