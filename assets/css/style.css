@@ -130,6 +130,8 @@ nav {
     /* display: none; */
 }
 
+/* Inspirational Section */
+
 #inspirational-heading, #kids-heading, #adults-heading, #gallery-heading {
     text-align: center;
     margin: 20px 0 ;
@@ -213,6 +215,8 @@ nav {
     text-decoration : none;
     font-size: 2rem;
 }
+
+/* About Us */
 
 #about {
     margin-left: auto;
