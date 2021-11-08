@@ -132,7 +132,7 @@ nav {
 
 /* Inspirational Section */
 
-#inspirational-heading, #kids-heading, #adults-heading, #gallery-heading, #latest-news-heading, #contact-us-heading {
+#inspirational-heading, #kids-heading, #adults-heading, #gallery-heading, #latest-news-heading, #contact-us-heading, #question-heading {
     text-align: center;
     margin: 20px 0 ;
     font-size: 380%;
@@ -294,6 +294,61 @@ nav {
     font-weight: bold;
     font-size: 150%;
     color: #000;
+}
+
+/* Form */
+
+/* #question-section {
+    height: 20rem;
+} */
+
+#question-form
+{
+    /* margin: 150px 10% 0 0; */
+    background-color: var(--dark-green);
+    color: var(--light-white);
+    max-width: 400px;
+    /*position: absolute;
+    left:10%; */
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#questionlink {
+    text-align: center; 
+    padding: 2rem; 
+    background-color: var(--light-white);  
+    height: 2rem; 
+    width:20rem;  
+    font-size: 150%; 
+    margin: 2rem auto ;
+    clear: both;
+}
+
+#questionlink a {
+    text-decoration: none; 
+    color: var(--dark-green) ; 
+    text-align: center;
+    font-weight: bold;
+}
+
+#questionlink a:hover {
+    font-size: 120%;
+}
+
+.text-input {
+    background: transparent;
+    color: var(--light-white);
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: var(--light-green-1);
 }
 
 
