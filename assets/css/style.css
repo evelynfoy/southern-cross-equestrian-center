@@ -132,7 +132,7 @@ nav {
 
 /* Inspirational Section */
 
-#inspirational-heading, #kids-heading, #adults-heading, #gallery-heading {
+#inspirational-heading, #kids-heading, #adults-heading, #gallery-heading, #latest-news-heading {
     text-align: center;
     margin: 20px 0 ;
     font-size: 380%;
@@ -276,6 +276,17 @@ nav {
     padding-bottom: .5rem;
 }
 
+#latest-news {
+    clear: both;
+    line-height: 0;
+    column-count: 1;
+    column-gap: .5rem;
+}
+
+#latest-news > article {
+    width: 100%;
+    padding: 5rem;
+}
 
 
 /* For larger screen sizes 80rem and over */
@@ -335,6 +346,10 @@ nav {
         column-count: 2;
     }
     
+    #latest-news {
+        column-count: 2;
+    }
+    
 }
 
 /* For medium screens size from 950px wide and upwards */
@@ -362,6 +377,10 @@ nav {
     }
 
     #gallery {
+        column-count: 2;
+    }
+
+    #latest-news {
         column-count: 2;
     }
 }
