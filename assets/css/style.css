@@ -132,11 +132,12 @@ nav {
 
 /* Inspirational Section */
 
-#inspirational-heading, #kids-heading, #adults-heading, #gallery-heading, #latest-news-heading {
+#inspirational-heading, #kids-heading, #adults-heading, #gallery-heading, #latest-news-heading, #contact-us-heading {
     text-align: center;
     margin: 20px 0 ;
     font-size: 380%;
 }
+
 
 #inspirational-text, #kids-text, #adults-text {
     text-align: center; 
@@ -283,9 +284,16 @@ nav {
     column-gap: .5rem;
 }
 
-#latest-news > article {
+#latest-news > div {
     width: 100%;
     padding: 5rem;
+}
+
+#contact-us {
+    text-align: center; 
+    font-weight: bold;
+    font-size: 150%;
+    color: #000;
 }
 
 
@@ -305,7 +313,7 @@ nav {
         left: 70%;
     }
 
-    #image-right {
+    .image-right {
         /* float: right; */
         width: 25%;
     }
@@ -337,7 +345,7 @@ nav {
         width: 50%;
 
     }
-    #content {
+    .content {
         margin-top:2rem;
         display:flex;
     }
@@ -372,7 +380,7 @@ nav {
         float:left;
     }
 
-    #image-right {
+    .image-right {
         width: 40%; 
     }
 
