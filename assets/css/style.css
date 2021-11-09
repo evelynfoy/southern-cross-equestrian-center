@@ -78,6 +78,12 @@ nav {
     text-align: center;
 }
 
+/* Horizontal Rule */
+hr {
+    border-bottom: 4px solid var(--dark-green);
+    margin: 4px 0;
+    width:100%;
+}
 /* Hero Image */
 
 #hero-outer {
