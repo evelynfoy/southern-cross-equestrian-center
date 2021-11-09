@@ -132,7 +132,7 @@ nav {
 
 /* Inspirational Section */
 
-#inspirational-heading, #kids-heading, #adults-heading, #gallery-heading, #latest-news-heading, #contact-us-heading, #question-heading {
+#inspirational-heading, #kids-heading, #adults-heading, #gallery-heading, #latest-news-heading, #contact-us-heading, #question-heading, #directions-heading {
     text-align: center;
     margin: 20px 0 ;
     font-size: 380%;
@@ -256,6 +256,7 @@ nav {
     line-height: 3rem; 
     margin-left: 2rem; 
     margin-top: 2rem;  
+    padding-right: 2rem;
     
     /* float: left; */
 }
