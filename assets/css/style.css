@@ -183,7 +183,7 @@ hr {
     padding: 2rem; 
     background-color: var(--dark-green);  
     height: 2rem; 
-    width:20rem;  
+    width:25rem;  
     font-size: 150%; 
     margin: 2rem auto ;
     clear: both;
@@ -194,6 +194,11 @@ hr {
     color: var(--light-white) ; 
     text-align: center;
     font-weight: bold;
+}
+
+.contactuslink a:hover {
+    font-size: 120%;
+
 }
 
 .backtotop a {
@@ -350,6 +355,8 @@ hr {
 #questionlink input:hover {
     font-size: 120%;
 }
+
+
 
 .text-input {
     background: transparent;
