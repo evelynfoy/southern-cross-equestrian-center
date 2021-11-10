@@ -81,7 +81,7 @@ nav {
 /* Horizontal Rule */
 hr {
     border-bottom: 4px solid var(--dark-green);
-    margin: 4px 0;
+    margin: 4rem 0;
     width:100%;
 }
 /* Hero Image */
@@ -410,8 +410,8 @@ footer {
     }
 
     .image-right {
-        /* float: right; */
         width: 25%;
+        margin: 2rem auto;
     }
 
     #sections > div, #adults-menu > div {
