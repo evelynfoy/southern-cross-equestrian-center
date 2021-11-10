@@ -365,6 +365,26 @@ hr {
     border-color: var(--light-green-1);
 }
 
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-media-links {
+    text-align:center;
+}
+
+.social-media-links > li {
+    display: inline;
+}
+
+.social-media-links i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 4%;
+    /* color: var(--dark-green); */
+}
 
 /* For larger screen sizes 80rem and over */
 @media screen and (min-width: 70rem) {
