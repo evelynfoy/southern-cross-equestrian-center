@@ -435,7 +435,7 @@ footer {
         width: 40%; 
     } */
 
-    #about-text {
+    #about-text, #kids-text {
         padding-left: 2em;
         width: 50%;
 
