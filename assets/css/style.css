@@ -238,15 +238,8 @@ hr {
 /* About Us */
 
 #about {
-    margin-left: auto;
-    margin-right: auto;;
-}
-
-#about-heading {
-    background-color: var(--dark-green); 
-    color: var(--light-white); 
-    text-align: center; 
-    font-size: 300%;
+    margin: auto;
+    
 }
 
 .section-heading {
@@ -268,6 +261,17 @@ hr {
     text-align: center; 
     font-weight: bold;
 }
+
+.image-right {
+    margin: 2rem auto;
+}
+
+
+.center {
+    display: block;
+    margin: auto;
+    padding-top: 2rem;
+  }
 
 .section-text {
     font-size: 175%; 
