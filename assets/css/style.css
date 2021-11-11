@@ -250,7 +250,7 @@ hr {
     font-size: 300%;
 }
 
-#about-text, #kids-text {
+#about-text, #kids-text, #latest-news-text {
     font-size: 175%; 
     line-height: 3rem; 
     margin-left: 2rem; 
@@ -303,14 +303,17 @@ hr {
 
 #latest-news {
     clear: both;
-    line-height: 0;
-    column-count: 1;
-    column-gap: .5rem;
+    margin: auto;
+
+    /* line-height: 1; */
+    /* column-count: 1;
+    column-gap: .5rem; */
 }
 
-#latest-news > div {
+#latest-news > p {
     width: 100%;
     padding: 5rem;
+    border: 2px solid red;
 }
 
 #contact-us {
@@ -435,12 +438,18 @@ footer {
         width: 40%; 
     } */
 
-    #about-text, #kids-text {
+    #about-text, #kids-text, #latest-news-text  {
         padding-left: 2em;
         width: 50%;
 
     }
 
+    #latest-news-text  {
+        padding-left: 2em;
+        width: 50%;
+        clear: both;
+
+    }
     .section-text {
         padding-left: 2em;
         width: 50%;
@@ -455,9 +464,9 @@ footer {
         column-count: 2;
     }
     
-    #latest-news {
+    /* #latest-news {
         column-count: 2;
-    }
+    } */
     
 }
 
@@ -489,7 +498,7 @@ footer {
         column-count: 2;
     }
 
-    #latest-news {
+    /* #latest-news {
         column-count: 2;
-    }
+    } */
 }
