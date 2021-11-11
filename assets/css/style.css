@@ -201,6 +201,10 @@ hr {
 
 }
 
+.backtotop {
+    margin-top: 2rem;
+}
+
 .backtotop a {
     text-decoration-color: var(--dark-green); 
     color: var(--dark-green) ; 
