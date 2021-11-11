@@ -259,7 +259,7 @@ hr {
     line-height: 3rem; 
     margin-left: 2rem; 
     margin-top: 2rem;  
-    float: left;
+    /* float: left; */
 }
 
 #about-text h2,#kids-text h2 {
