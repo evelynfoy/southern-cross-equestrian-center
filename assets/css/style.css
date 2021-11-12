@@ -145,7 +145,7 @@ hr {
 }
 
 
-#inspirational-text, #adults-text {
+#inspirational-text  {
     text-align: center; 
     font-size: 1.5rem;
 }
@@ -254,7 +254,7 @@ hr {
     font-size: 300%;
 }
 
-#about-text, #kids-text, #latest-news-text {
+#about-text, #kids-text, #latest-news-text, #adults-text {
     font-size: 175%; 
     line-height: 3rem; 
     margin-left: 2rem; 
@@ -262,7 +262,7 @@ hr {
     /* float: left; */
 }
 
-#about-text h2,#kids-text h2 {
+#about-text h2,#kids-text h2, #adults-text h2 {
     text-align: center; 
     font-weight: bold;
 }
@@ -442,7 +442,7 @@ footer {
         width: 40%; 
     } */
 
-    #about-text, #kids-text, #latest-news-text  {
+    #about-text, #kids-text, #latest-news-text, #adults-text  {
         padding-left: 2em;
         width: 50%;
 
