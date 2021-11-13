@@ -148,6 +148,10 @@ hr {
     font-size: 1.5rem;
 }
 
+#inspirational-text ul {
+    list-style-type: none;
+}
+
 #left-about {
     padding-top: 30px;
     width: 33%;
@@ -401,6 +405,13 @@ footer {
 
 /* For larger screen sizes 80rem and over */
 @media screen and (min-width: 70rem) {
+
+    /* Center content on 80% of screen */
+    body {
+        width: 80%;
+        margin: 0 auto;
+    }
+
     #hero-image {
         background: url("../images/hero-image.jpg") no-repeat center center;
     }
