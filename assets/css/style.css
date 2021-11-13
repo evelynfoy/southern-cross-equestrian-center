@@ -249,17 +249,17 @@ hr {
     font-size: 300%;
 }
 
-#about-text, #kids-text, #latest-news-text, #adults-text {
+#about-text, #kids-text, #adults-text {
     font-size: 175%; 
     line-height: 3rem; 
     margin-left: 2rem; 
-    margin-top: 2rem;  
     /* float: left; */
 }
 
 #about-text h2,#kids-text h2, #adults-text h2 {
     text-align: center; 
     font-weight: bold;
+    margin: 2rem 0;  
 }
 
 .image-right {
@@ -283,12 +283,14 @@ hr {
     margin-top: 2rem;  
     padding-right: 2rem;
     
+    
     /* float: left; */
 }
 
 .section-text h2 {
     text-align: center; 
     font-weight: bold;
+    margin: 2rem 0;
 }
 
 #gallery {
