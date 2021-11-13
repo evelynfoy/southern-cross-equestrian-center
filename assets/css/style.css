@@ -374,7 +374,10 @@ hr {
     font-size: 120%;
 }
 
-
+/* Space out directions lists */
+.directions-list {
+    margin-bottom:2rem;
+}
 
 .text-input {
     background: transparent;
