@@ -270,6 +270,12 @@ hr {
     width: 100%;
 }
 
+.image-right > iframe {
+    width: 100%;
+    height: 30rem;
+    border: 0;
+}
+
 .center {
     display: block;
     margin: auto;
@@ -479,6 +485,7 @@ footer {
     #gallery {
         column-count: 3;
     }
+    
     
     /* #latest-news {
         column-count: 2;
