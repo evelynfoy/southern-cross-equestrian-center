@@ -44,14 +44,13 @@ h1, h2 {
 
 #menu {
     font-size: 150%;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     float:left;
     margin-left: 2.5rem;
 }
 
-/* Vertically center the logo and menu */
 #menu, #logo {
-    line-height: 7.5rem;;
+    line-height: 5.5rem;;
 }
 
 #menu li {
@@ -63,7 +62,7 @@ h1, h2 {
 #menu a {
     text-decoration: none;
     color: inherit;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 #menu a:hover {
@@ -410,6 +409,11 @@ footer {
     #menu {
         float: right;
         font-size: 210%;
+    }
+
+    /* Vertically center the logo and menu */
+    #menu, #logo {
+        line-height: 7.5rem;;
     }
 
     #slogan {
