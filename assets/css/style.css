@@ -196,20 +196,13 @@ h1, h2 {
     margin: 3rem 0;
 }
 
-.section-heading {
-    background-color: var(--dark-green); 
-    color: var(--light-white); 
-    text-align: center; 
-    font-size: 3rem;
-}
-
-#about-text, #kids-text, #adults-text {
+.text-content {
     font-size: 1.75rem; 
     line-height: 3rem; 
     margin-left: 2rem; 
 }
 
-#about-text h2,#kids-text h2, #adults-text h2 {
+.text-content h2 {
     text-align: center; 
     font-weight: bold;
     margin: 2rem 0;  
@@ -234,20 +227,6 @@ h1, h2 {
     margin: auto;
     padding-top: 2rem;
   }
-
-.section-text {
-    font-size: 1.75rem; 
-    line-height: 3rem; 
-    margin-left: 2rem; 
-    margin-top: 2rem;  
-    padding-right: 2rem;
-}
-
-.section-text h2 {
-    text-align: center; 
-    font-weight: bold;
-    margin: 2rem 0;
-}
 
 #gallery {
     clear: both;
@@ -375,12 +354,7 @@ footer {
         margin: 2rem auto;
     }
 
-    #about-text, #kids-text, #adults-text  {
-        padding-left: 2em;
-        width: 50%;
-    }
-
-    .section-text {
+    .text-content  {
         padding-left: 2em;
         width: 50%;
     }
