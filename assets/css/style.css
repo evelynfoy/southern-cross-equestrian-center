@@ -23,14 +23,14 @@ html {
 }
 
 body {
-     font-family: Lato,sans-serif ;
+     font-family: "Lato",sans-serif ;
      font-weight: 300;
      color: var(--dark-green)
 }
 
 /* Headings and logo */
 h1, h2 {
-    font-family: Oswald, sans-serif;
+    font-family: "Oswald", sans-serif;
     color: var(--dark-green);
 }
 
@@ -118,19 +118,19 @@ hr {
 
 /* Slogan */
 
-#slogan, #slogan h2{
-    color: var(--light-white);
-}
-
 #slogan {
     font-size: 2.3rem;
-    font-family: Oswald, sans-serif;
+    font-family: "Oswald", sans-serif;
     letter-spacing: 5px;
     position: absolute;
     top: 45%;
     left: 70%;
     background-color: rgba(19, 68, 43, .5);
     padding: 0 .5rem;
+}
+
+#slogan h2 {
+    color: var(--light-white);
 }
 
 /* Inspirational Section */
