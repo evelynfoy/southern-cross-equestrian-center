@@ -73,13 +73,6 @@ h1, h2 {
     border-bottom: 2px solid var(--dark-green)
 }
 
-/* Horizontal Rule */
-hr {
-    border-bottom: 4px solid var(--dark-green);
-    margin: 4rem 0;
-    width:100%;
-}
-
 /* Hero Image */
 /* Based on code from Love Running project */
 /* Creating one div with a background image inside a second div of the same size with an overflow value of hidden and creating an animation 
@@ -195,6 +188,12 @@ hr {
 #about, #kids {
     margin: auto;
     clear: both;
+}
+
+/* Draws a line above element */
+.line {
+    border-top: 4px solid var(--dark-green);
+    margin: 3rem 0;
 }
 
 .section-heading {
