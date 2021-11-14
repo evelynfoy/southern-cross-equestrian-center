@@ -183,13 +183,6 @@ h1, h2 {
     font-size: 1.5rem;
 }
 
-/* About Us */
-
-/* #about, #kids {
-    margin: auto;
-    clear: both;
-} */
-
 /* Draws a line above element */
 .line {
     border-top: 4px solid var(--dark-green);
