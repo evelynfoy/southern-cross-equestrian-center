@@ -376,12 +376,6 @@ footer {
         margin: 2rem auto;
     }
 
-    #sections > div, #adults-menu > div {
-        width: 25%;
-        padding: 2rem 0;
-        float:left;
-    }
-
     #about-text, #kids-text, #adults-text  {
         padding-left: 2em;
         width: 50%;
@@ -410,11 +404,6 @@ footer {
     #slogan {
         top: 75%;
         left: 70%;
-    }
-    #sections > div {
-        width: 25%;
-        padding: 2rem 0;
-        float:left;
     }
 
     .image-right {
