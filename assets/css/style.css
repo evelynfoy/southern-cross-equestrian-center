@@ -349,8 +349,8 @@ footer {
     color: var(--dark-green);
 }
 
-/* For larger screen sizes 80rem and over */
-@media screen and (min-width: 70rem) {
+/* For larger screen sizes 992px and over */
+@media screen and (min-width: 992px) {
 
     /* Center content on 80% of screen */
     body {
@@ -409,9 +409,9 @@ footer {
     
 }
 
-/* For medium screens size from 950px wide and upwards */
+/* For medium screens size from 768px wide and upwards */
 
-@media screen and (min-width: 95rem) {
+@media screen and (min-width: 768px) {
 
     #slogan {
         top: 75%;
@@ -429,6 +429,10 @@ footer {
 
     #gallery {
         column-count: 3;
+    }
+
+    #logo {
+        letter-spacing: .5rem;
     }
 
 }
