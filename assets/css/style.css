@@ -10,7 +10,9 @@
 }
 
 /* Set base font size for ease of calculation of rems */
-html { font-size: 62.5%; } 
+html { 
+    font-size: 62.5%; 
+} 
 
 /* Applies to whole page */
 /* Remove all default margin, padding and border values for easier styling */
@@ -34,7 +36,7 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 380%;
+    font-size: 3.8rem;
     margin-left: 2.5rem;
     letter-spacing: 5px;
 }
@@ -42,7 +44,7 @@ h1, h2 {
 /* Navigation links */
 
 #menu {
-    font-size: 150%;
+    font-size: 1.5rem;
     float:left;
     margin-left: 2.5rem;
 }
@@ -117,7 +119,7 @@ hr {
 }
 
 #slogan {
-    font-size: 230%;
+    font-size: 2.3rem;
     font-family: Oswald, sans-serif;
     letter-spacing: 5px;
     position: absolute;
@@ -132,7 +134,7 @@ hr {
 #inspirational-heading, #kids-heading, #adults-heading, #gallery-heading, #latest-news-heading, #contact-us-heading, #question-heading, #directions-heading {
     text-align: center;
     margin: 20px 0 ;
-    font-size: 380%;
+    font-size: 3.8rem;
 }
 
 
@@ -161,7 +163,7 @@ hr {
     background-color: var(--dark-green);  
     height: 2rem; 
     width:25rem;  
-    font-size: 150%; 
+    font-size: 1.5rem; 
     margin: 2rem auto ;
     clear: both;
 }
@@ -174,7 +176,7 @@ hr {
 }
 
 .contactuslink a:hover {
-    font-size: 120%;
+    font-size: 1.2rem;
 }
 
 .backtotop {
@@ -186,7 +188,7 @@ hr {
     color: var(--dark-green) ; 
     font-weight: bold;
     padding: 2rem;
-    font-size: 150%;
+    font-size: 1.5rem;
 }
 
 /* About Us */
@@ -200,11 +202,11 @@ hr {
     background-color: var(--dark-green); 
     color: var(--light-white); 
     text-align: center; 
-    font-size: 300%;
+    font-size: 3rem;
 }
 
 #about-text, #kids-text, #adults-text {
-    font-size: 175%; 
+    font-size: 1.75rem; 
     line-height: 3rem; 
     margin-left: 2rem; 
 }
@@ -236,7 +238,7 @@ hr {
   }
 
 .section-text {
-    font-size: 175%; 
+    font-size: 1.75rem; 
     line-height: 3rem; 
     margin-left: 2rem; 
     margin-top: 2rem;  
@@ -264,7 +266,7 @@ hr {
 #contact-us {
     text-align: center; 
     font-weight: bold;
-    font-size: 150%;
+    font-size: 1.5rem;
     color: #000;
 }
 
@@ -286,7 +288,7 @@ hr {
     background-color: var(--light-white);  
     height: 2rem; 
     width:20rem;  
-    font-size: 150%; 
+    font-size: 1.5rem; 
     margin: 2rem auto ;
     clear: both;
 }
@@ -299,7 +301,7 @@ hr {
 }
 
 #questionlink input:hover {
-    font-size: 120%;
+    font-size: 1.2rem;
 }
 
 /* Space out directions lists */
@@ -336,9 +338,9 @@ footer {
 }
 
 .social-media-links i {
-    font-size: 200%;
-    margin: 1%;
-    padding: 4%;
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 4rem;
     /* color: var(--dark-green); */
 }
 
@@ -357,7 +359,7 @@ footer {
 
     #menu {
         float: right;
-        font-size: 210%;
+        font-size: 2.1rem;
     }
 
     /* Vertically center the logo and menu */
