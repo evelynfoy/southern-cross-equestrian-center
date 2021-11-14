@@ -38,7 +38,7 @@ h1, h2 {
     float: left;
     font-size: 3.8rem;
     margin-left: 2.5rem;
-    letter-spacing: 5px;
+    letter-spacing: 1rem;
 }
 
 /* Navigation links */
@@ -341,7 +341,7 @@ footer {
     font-size: 2rem;
     margin: 1rem;
     padding: 4rem;
-    /* color: var(--dark-green); */
+    color: var(--dark-green);
 }
 
 /* For larger screen sizes 80rem and over */
