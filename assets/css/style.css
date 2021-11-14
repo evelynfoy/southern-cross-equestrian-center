@@ -295,7 +295,7 @@ h1, h2 {
 /* footer */
 
 footer {
-    height: 150px;
+    height: 10rem;
 }
 
 .social-media-links {
@@ -309,7 +309,7 @@ footer {
 .social-media-links i {
     font-size: 2rem;
     margin: 1rem;
-    padding: 4rem;
+    padding: 2rem;
     color: var(--dark-green);
 }
 
@@ -381,6 +381,10 @@ footer {
 
     #logo {
         letter-spacing: .5rem;
+    }
+
+    .social-media-links i {
+        padding: 4rem;
     }
 
 }
