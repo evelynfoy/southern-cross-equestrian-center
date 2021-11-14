@@ -203,8 +203,9 @@ The live link can be found here - https://evelynfoy.github.io/southern-cross-equ
 
 ### Content 
 
-- The text for the Home page was made up but inspired from my research sites
-  - For content and style inspiration,
+The text for the Home page was made up but inspired from my research sites.
+
+For content and style inspiration,
 * [carrickminesequestrian.ie](https://www.carrickminesequestrian.ie/ "Carrickmines Equestrian Centre")
 * [Brennanstown Riding School](https://www.brennanstownrs.ie/ "Brennanstown Riding School")
 * [The Padocks Riding Centre](http://www.paddocks.ie/ "The Padocks Riding Centre")
@@ -215,9 +216,7 @@ For code inspiration, help and advice,
 * [Chris Quinn](https://github.com/2BN-Chris_mentor "Chris Quinn")
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-For example site and design 
-
+- The fonts I used are Lato and Oswald are from Google Fonts [Lato](https://fonts.google.com/?query=Lato "Lato") and [Oswald](https://fonts.google.com/?query=Oswald "Oswald")
 
 ### Media
 
