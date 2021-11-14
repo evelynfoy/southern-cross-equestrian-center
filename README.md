@@ -1,10 +1,5 @@
-![Logo](wireframes/logo.JPG)
-
 # Southern Cross Equestrian Centre
 
-
-
-# Goal for this Project
 The goal of this project is to design and build a website to advertise an Equestrian Centre and inspire people 
 to become customers.
 
@@ -12,113 +7,11 @@ It should provide information about the centre, what it offers, where it is and 
 It should provide various means of contacing the organisers, phone numbers, email and submitting a question or query 
 via a form.
 
+![Responsive Displays](docs/images/SCEC_mockup.png)
 
-![Responsive Displays](wireframes/different-displays.JPG)
-
-# Table of Contents
-* [UX](#ux "UX")
-    * [User Goals](#user-goals "User Goals")
-    * [User Stories](#user-stories "User Stories")
-    * [Site Owners Goals](#site-owners-goals)
-    * [User Requirements and Expectations](#user-requirements-and-expectations)
-         * [Requirements](#requirements)
-         * [Expectations](#expectations)
-     * [Design Choices](#design-choices)
-        * [Fonts](#fonts)
-        * [Icons](#icons)
-        * [Colours](#colours)
-        * [Structure](#structure)
-    * [Wireframes](#wireframes)
-    * [Features](#features)
-        * [Existing Features](#existing-features)
-            * [Navigation Bar](#navigation-bar)
-            * [Home Page](#home-page)
-            * [Gallery Page](#gallery-page)
-            * [Contact Us Page](#contact-us-page)
-            * [Footer](#footer)
-        * [Features to be implemented](#features-to-be-implemented)
-    * [Technologies used](#technologies-used)
-        * [Languages](#languages)
-        * [Tools and Libraries](#tools-and-libraries)
-    * [Testing](#testing)
-        * [Unfixed Bugs](#unfixed-bugs)
-    * [Deployment](#deployment)
-    * [Credits](#credits)
-# UX
-
-## User Goals
-* Visually appealing, including images.
-* Easily navigated around.
-* Quality and valuable content.
-* Easily found contact details.
-* Form to directly contact the centre.
-## User Stories
-* I want to find out where the centre is and what the contact details are.
-* I want to submit a question.
-* I want to find out if it caters for kids.
-* Does it do ride-outs, when and how much does it cost?
-* What levels of experiance do they do lessons for, what is the schedule and rates?
-* Do they do Pony Camps or League competitions? Is there an associated club?
-* Do they take animals in on livery and what is the cost?
-* Is it safe? Is it approved by <a href="https://www.aire.ie/">AIRE</a>.
-## Site owners Goals
-* Promote the centre.
-* Increase the number of members.
-* Increase rankings on search engines.
-### Requirements
-* Easy to navigate on various screen sizes.
-* Clear information on the services provided.
-* Keep the user interested with small bits of information to make them want to engage with the centre.
-* Simple methods of contacting the centre.
-* Visually inviting so users do not leave.
-### Expectations
-* I expect to know if a form has been submitted properly and if items are not filled in, to be prompted.
-* I expect all links to social media sites to be opened in a new tab.
-* I expect all navigation links to work correctly.
-* I expect screen size not to affect the quality of the website.
-* I expect all information to be correct and accurate.
-
-\
-&nbsp;
-[Back to Top](#table-of-contents)
-\
-&nbsp;
-
-## Design Choices
-
-### Fonts
-I am using Lato for the main body of text and Oswald for the headings.
-
-### Icons
-I have used an icon of a horse on my website from the [Font Awesome library](https://fontawesome.com/ "Font Awesome"). 
-
-### Colours
-I used [Colourmind](https://colormind.io/ "colourmind") to help in the selection of my colour scheme. I loaded the logo image for AIRE (Association of Irish Riding Establishments) which I will be including in my site and chose a selection that appealed to me. It has natural colors e.g. greens and a contrasting sandy color for a splash of color. It also has a very light shade which is good on the dark green for text.
-
-See [here](docs/images/ColorPallet.JPG).
-
-
-### Structure
-I will be building my website with a mobile first mindset using the iPhone 5/SE (320px) as the smallest screen size for styling to look good on. The screen size breakpoints that I will be using are from [Bootstrap breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/ "Bootstrap").
-
-| Screen Size | Breakpoint |
-| ----------- | ---------- |
-| x-small     | <576px     |
-| small       | => 576px   |
-| medium      | => 768px   |
-| large       | => 992px   |
-| x-large     | => 1200px  |
-
-\
-&nbsp;
-[Back to Top](#table-of-contents)
-\
-&nbsp;
 
 # Wireframes
-I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop my wireframes for my website. I initially imagined the desktop design making sure I included
-all the details I wanted in a pleasant and intuitive way. The initial hero image catches the attention and leads on to further more specific information designed to keep the user reading. I then scaled it down for tablets and phones by reducing image sizes and fonts and moving some information to the next line rather.
-There are 3 pages, the home page and then a Gallery page and a Contact Us page. The home page is divided into sections that clearly define its purpose and contain quality information that users will be interested in. Navigation is via the navigation bar and via links to internal anchors on the same page.
+I have used [Balsamic](https://balsamiq.com/wireframes/ "Balsamic") to develop some wireframes for my website. 
 
 The wireframes are below:
 
@@ -132,204 +25,205 @@ The wireframes are below:
 ### [ContactUs Tablet Wireframe](docs/wireframes/ContactUs-Tablet.png "Home Tablet wireframe")
 ### [ContactUs Phone Wireframe](docs/wireframes/ContactUs-Phone.png "Home Phone wireframe")
 
-\
-&nbsp;
-[Back to Top](#table-of-contents)
-\
-&nbsp;
+After discussions with my mentor I decided to change the design a bit and move the images down to the sections ares to make them more interesting and I also left them larger and a more natural rectangular shape. I also changed the design from a three page site to a single page site again on advice from my mentor to make it more suitable for scrolling down on a phone.  
 
-# Features
+## Features 
 
-## Existing Features
+The site consists of a single scrollable page with a hero image, an navigation bar, various content featuring images, a gallery section and a contact us section which also includes contact details, directions a map and a submit form for questions. 
 
-### Navigation Bar
+### Existing Features
 
-The navigation bar is fully responsive to allow for various screen sizes. It includes links to manover around the site easily and the centre logo which doubles as a link back to the home screen.
+- __Navigation Bar__
 
-+ Desktop (>=992px)
-\
-&nbsp;
-    ![Navigation bar](wireframes/nav-bar-desktop.JPG)
-    -   Spanning the full width of the device and with all links (Home, About, Events, Contact) to navigate visible, this gives ease and clear use to the end user.
+  - Featured at the top of the page, the full responsive navigation bar includes links to the top or home section, Gallery and Contact Us sections. 
+  - This allows the user to easily scroll down through the content. The back to top link is available after each section.
 
-    -   In order for the user to visably see which of the links they are hovering over there is a bar below the text.
+  - I had originally designed this to have three separate pages but changed it on the advice of my mentor as it provides a better mobile first experiance for the user.
+  - Each section leads to the next leading to the invited conclusion of them making contact.
 
-    ![Navigation bar on hover](wireframes/nav-bar-hover.JPG)
-    \
-    &nbsp;
-    -   For the user to know that a link has been clicked there is also a visual aid of the text changing colour.
+![Nav Bar](docs/images/NavBar.png)
 
-    ![Navigation bar on focus](wireframes/nav-bar-focus.JPG)
-    \
-    &nbsp;
+- __The landing page image__
 
+  - The landing includes a photograph with text overlay of some riders enjoying a ride-out. It is intended to pique their interest. 
+  - This section introduces the user to the equestrian center with an eye catching animation to grab their attention.
 
-+ Small devices (<992px)
-\
-&nbsp;
-    - As the navigation bar would be unuseable in the desktop version on smaller devices, it takes on a hamburger style.
+![Landing Page](docs/images/landing-page-image.png)
 
-    \
-    &nbsp;
-![Nav bar on small devices](wireframes/nav-bar-small.JPG)
+- __Inpirational Section__
 
-    - When pressed, it opens up the main menu with all the links available then.
+  - The inspirational section will make the user imagine what it would be like to try riding in general and then encourage them to contact it by assuring them that it caters for everyone and also gives a taste of the options it offers. IT then encourates them to contact the centre by providing a link to the contact section. 
 
-    \
-    &nbsp;
-![Nav bar on small devices expanded](wireframes/nav-bar-small-expanded.JPG)
+![Inspirational Section](docs/images/inspirational-section.png)
 
-\
-&nbsp;
-[Back to Top](#table-of-contents)
-\
-&nbsp;
-### Landing Page
+- __Welcome or About section__
 
-+ The landing page image
-    - The image gives the user instant knowledge of what is involved in the centre, and with added animation draws their eye to the site.
-    - The text gives instant information to the user on what the centre is. With the added animation of fading in slightly behind the image, it makes the user keep interest. 
-    \
-    &nbsp;
+  - This section gives some information about the centre and what it stands for . 
+  - It provides a link to Aire - The Association of Irisk Riding Establishments - citing that the centre is fully approved. 
 
-    ![Landing Page](wireframes/landing-page.JPG)
+![Welcome Section](docs/images/welcome-section.png)
 
-\
-&nbsp;
-[Back to Top](#table-of-contents)
-\
-&nbsp;
+__Kids section__
 
+  - This section focuses on kids, highlighting the fact that the centre is suitable for and welcomes kids. 
+  - It also includes an image showing kids onb horseback having fun. 
 
-### Welcome Section
+![Kids Section](docs/images/kids-section.png)
 
-+ The welcome section gives a brief introduction to the user on what the Southern Cross Equestrian Centre is and who is welcome.
-    \
-    &nbsp;
+__Adults section__
 
-   
-    \
-    &nbsp;
+  - This section focuses on adults, highlighting the fact that the centre is also suitable for adults. 
+  - It also includes an image showing adults on horseback having fun. 
+
+![Adults Section](docs/images/adults-section.png)
+
+__Livery section__
+
+  - This section focuses on the livery service also provided extoling the virtues of keeping your horse or pony at the centre.
+  - It also includes an image showing an horse in a rug looking content. 
+
+![Livery Section](docs/images/livery-section.png)
+
+__Gallery section__
+
+  - The gallery will provide the user with supporting images to see what fun it is to ride at the centre. 
+  - This section is valuable to the user as they will be able to easily identify the types of activities that take place at the centre. 
+
+![Gallery](docs/images/gallery-section.png)
+
+- __The Contact Us Section__
+
+  - This page will allow the user to get in contact with the centre in a number of ways. The phone number , address and email details are provided along with a form they can fill in to ask a question. There is validation which ensures all fields are filled out prior to submission. It also provides directions to the centre including a map.
+
+![Contact Us](docs/images/contact-us-section.png)
+![Contact Us](docs/images/directions-section.png)
 
 
+- __The Footer__ 
 
-\
-&nbsp;
-[Back to Top](#table-of-contents)
-\
-&nbsp;
+  - The footer section includes links to social media sites. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
+
+![Footer](docs/images/scec-footer.png)
+
+### Features Left to Implement
+
+- Implementation of proper submission of the form in contact us rather than just displaying a dummy page.
+- Implementation of logo and nav menu as a fixed position feature that remains in place as you scroll.
+- Implementation of the 'Back to top' link as a fixed position feature available at all times.
+- Implementation of a tack shop where items can be purchased.
+  
+## Testing 
+
+To test this site I did the following:-
+First I tested the site on a mobile device
+1) Clicked the site url in github - https://evelynfoy.github.io/southern-cross-equestrian-center/
+   The site appeared quickly and looked well.
+   The logo aligned snuggly to the left.
+   The menu was also left aligned beneath it
+   The hero image appeared and the animation ran successfully. The hero image that appeared was the correct one for a small screen which is centered on a single horse.
+2) I clicked the Home link
+   It remained at the top correctly.
+3) I clicked the Gallery link
+   Initially this did not work. I checked the code and found that the id link was missing from the section. I added it in.
+4) I clicked the Contact Us link
+   It brought me successfully to the contact form.
+5) I clcked the Directions link displayed.
+   It brought me successfully to the Directions section.
+   The directions were displayed correctly one on top of the other with the map underneath.
+6) I clicked the 'Back to top' link displayed under the map and it brought me successfully back to the top.
+7) I viewed the hero image and confirmed that the slogan statement appeared correctly for a small screen.
+8) I scrolled down past the inspirational section noting that it was displayed correctly.
+9) I clicked the 'Ready to take the first step' link which took me successfully to the Contact Us section.
+10) I noted that the placeholder text appeared successfully in the 'Go for it' text area. 
+11) I clcked the submit form button.
+    A validation message appeared requesting I fill in the first name field.
+    I filled that in and clicked submit.
+    A validation message appeared requesting I fill in the last name field.
+    I filled that in and clicked submit.
+    A validation message appeared requesting I fill in the email field.
+    I filled that in and clicked submit.
+    A validation message appeared requesting I fill in a valid email.
+    I filled that in and clicked submit.
+    A validation message appeared requesting I fill in the 'Go for it' field with my query.
+    I filled that in and clicked submit.
+    A success message appeared stating that my form had been recived by the Southern Cross Equestrian Centre.
+    As I clicked each field I saw that the border changed color as a visual aid.
+12) I clicked 'Back to top' and scrolled through again.
+    The Welcome section appeared correctly.
+13) I clicked the link to 'Aire'.
+    It opened successfully in a new window.
+14) I returned to the site and continued scrolling.
+    The images appeared correctly under the text and one under the next.
+    Each section appeared correctly. Kids,adults and livery.
+15) I arrived at the Gallery section.
+    The images were all appearing correctly one under the other with a small gap in between for effect.
+    The images were reduced in size and looked sharp and clear and not distorted. 
+16) I checked the social media icons in the footer and noticed that one icon was appearing below the others.
+    I returned to the code and changed the css to reduce the space in between the icons for small screens. 
+17) I clicked each socila media icon and confirmed that all were working.
+
+I then tested the site on a tablet and confirmed that it displayed as exected.
+I then tested it on a desktop and confirmed that it displayed there correctly also.
+
+For these the large hero image was displayed, images were displayed beside the appropriate text and the gallery displayed images 3 abreast.
+The map was displayed beside the directions.
+
+I noted the site was easy to use and navigate around. I was able to find various information easily and the experiance was pleasant.
+
+### Validator Testing 
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fevelynfoy.github.io%2Fsouthern-cross-equestrian-center%2Findex.html)
+  ![HTML Validation Results](docs/images/HTMLValidatorIndex.png)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fevelynfoy.github.io%2Fsouthern-cross-equestrian-center%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=)
+  ![CSS Validation Results](docs/images/CSSValidator.png)
 
 
+### Unfixed Bugs
 
-\
-&nbsp;
-[Back to Top](#table-of-contents)
-\
-&nbsp;
+I notice the favicon icon I added is not appearing in the deployed site.
+It does work in git pod see image.
+![Favicon icon](docs/images/favicon.png)
 
-### Footer
+## Deployment
+I created a repository in github for this project https://github.com/evelynfoy/southern-cross-equestrian-center
+I then used the gitpod editor to build it.
 
-+ The footer contains the social media links related to the equestrian centre and the copyright text. These social links all open in a new tab for ease of use to the user and also, so the user has an ability to easily come back to the equestrian centre's site.
-    \
-    &nbsp;
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - Then click the Pages tab.
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refresh with a link to the deployed site. 
 
-    ![Contact Section](wireframes/footer.JPG)
-    \
-    &nbsp;
-
-+ There is also a hover effect over the links, again to improve user experiance.
-    \
-    &nbsp;
-
-    ![Contact Section](wireframes/footer-hover.JPG)
-    \
-    &nbsp;
-
-## Features to be Implemented
-
-?
-
-\
-&nbsp;
-[Back to Top](#table-of-contents)
-\
-&nbsp;
-
-# Technologies used
-
-## Languages
-* [HTML](https://en.wikipedia.org/wiki/HTML "HTML")
-* [CSS](https://en.wikipedia.org/wiki/CSS "CSS")
-
-## Libraries & Framework
-* [Google Fonts](https://fonts.google.com/ "Google Fonts")
-* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
-## Tools
-* [Gitpod](https://www.gitpod.io/ "Gitpod")
-* [Balsamic](https://balsamiq.com/wireframes/ "Balsamic")
-* [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
-* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
-* [Bootstrap](https://getbootstrap.com "Bootstrap")
-* [Colourmind](https://colormind.io/ "colourmind")
-* [Font Awesome library](https://fontawesome.com/ "Font Awesome")
-* [Google Fonts](https://fonts.google.com/ "Google Fonts")
-* [Unsplash](https://unsplash.com/ "Unsplash")
-* [Box Shadow Generator](https://html-css-js.com/css/generator/box-shadow/ "html-css-js.com")
-
-\
-&nbsp;
-[Back to Top](#table-of-contents)
-\
-&nbsp;
-
-# Testing
-
-?
+The live link can be found here - https://evelynfoy.github.io/southern-cross-equestrian-center/
 
 
-\
-&nbsp;
-[Back to Top](#table-of-contents)
-\
-&nbsp;
+## Credits 
 
-# Deployment
+### Content 
 
-Following writing the code then commiting and pushing to GitHub, this project was deployed using GitHub by the following steps.
-
-+ Navigate to the repository on github and click <strong>Settings</strong>.
-+ Then select <strong>Pages</strong> on the side navigation.
-+ Select the <strong>None</strong> dropdown, and then click <strong>master</strong>.
-+ Click on the <strong>Save</strong> button.
-+ Now the website is now live on https://evelynfoy.github.io/southern-cross-equestrian-center/
-+ If any changes are required, they can be done, commited and pushed to GitHub and the changes will be updated.
-
-\
-&nbsp;
-[Back to Top](#table-of-contents)
-\
-&nbsp;
-
-# Credits
+- The text for the Home page was made up but inspired from my research sites
+  - For content and style inspiration,
+* [carrickminesequestrian.ie](https://www.carrickminesequestrian.ie/ "Carrickmines Equestrian Centre")
+* [Brennanstown Riding School](https://www.brennanstownrs.ie/ "Brennanstown Riding School")
+* [The Padocks Riding Centre](http://www.paddocks.ie/ "The Padocks Riding Centre")
+* [Example site provided by mentor](https://github.com/sam-timmins/T4Tri-triathlon-club "T4Tri-triathlon-club")
 
 For code inspiration, help and advice,
 * [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
 * [Chris Quinn](https://github.com/2BN-Chris_mentor "Chris Quinn")
-* [Stack Overflow](https://stackoverflow.com/questions/179123/how-to-modify-existing-unpushed-commit-messages "Modify unpushed commit messages")
-* [Git hub documentation](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message "Change a commit message")
-* [Colorhexa](https://www.colorhexa.com/d28c43 "Converting colors from hex to rgb")
 
-\
-&nbsp;
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-For content and style inspiration,
+For example site and design 
+
+
+### Media
+
+  The photos used on this site are all from the websites sited above as my research sites
 * [carrickminesequestrian.ie](https://www.carrickminesequestrian.ie/ "Carrickmines Equestrian Centre")
 * [Brennanstown Riding School](https://www.brennanstownrs.ie/ "Brennanstown Riding School")
 * [The Padocks Riding Centre](http://www.paddocks.ie/ "The Padocks Riding Centre")
 
 
-\
-&nbsp;
-[Back to Top](#table-of-contents)
-\
-&nbsp;
