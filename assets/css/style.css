@@ -146,18 +146,12 @@ hr {
     font-size: 1.5rem;
 }
 
+#inspirational-text h3 {
+    margin-bottom: .5rem;
+}
+
 #inspirational-text ul {
     list-style-type: none;
-}
-
-.left-about-heading h2 {
-    width: 100%;
-    text-align: center;
-}
-
-.left-about-heading p {
-    padding: 0 20px;
-    text-align: center;
 }
 
 /* Reversed color links - Contact us and Directions*/
