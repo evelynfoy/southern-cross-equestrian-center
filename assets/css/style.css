@@ -37,7 +37,6 @@ h1, h2 {
     font-size: 380%;
     margin-left: 2.5rem;
     letter-spacing: 5px;
-
 }
 
 /* Navigation links */
@@ -72,25 +71,20 @@ h1, h2 {
     border-bottom: 2px solid var(--dark-green)
 }
 
-nav {
-    text-align: center;
-}
-
 /* Horizontal Rule */
 hr {
     border-bottom: 4px solid var(--dark-green);
     margin: 4rem 0;
     width:100%;
 }
+
 /* Hero Image */
 
 #hero-outer {
     height: 50rem;
     width: 100%;
     overflow: hidden;
-
     position: relative;
-
 }
 
 #hero-image {
@@ -131,7 +125,6 @@ hr {
     left: 70%;
     background-color: rgba(19, 68, 43, .5);
     padding: 0 .5rem;
-    /* display: none; */
 }
 
 /* Inspirational Section */
@@ -152,23 +145,12 @@ hr {
     list-style-type: none;
 }
 
-#left-about {
-    padding-top: 30px;
-    width: 33%;
-    /* float: left; */
-
-}
-
-.left-about-heading, .right-about-heading {
-    width: inherit ;
-}
-
-.left-about-heading h2, .right-about-heading h2 {
+.left-about-heading h2 {
     width: 100%;
     text-align: center;
 }
 
-.left-about-heading p, .right-about-heading p {
+.left-about-heading p {
     padding: 0 20px;
     text-align: center;
 }
@@ -193,7 +175,6 @@ hr {
 
 .contactuslink a:hover {
     font-size: 120%;
-
 }
 
 .backtotop {
@@ -208,38 +189,11 @@ hr {
     font-size: 150%;
 }
 
-
-/* Sections Menu */
-
-#sections, #kids-menu, #adults-menu {
-    width: 100%;
-    background-color: var(--light-green-1);
-    clear: both
-}
-
-#sections div, #kids-menu div ,#adults-menu div {
-    color: var(--light-white);
-    background-color: var(--dark-green);
-    width: 100%;
-    float: left;
-    padding: 2rem 0 2rem 0;
-    text-align: center;
-    border:2px solid white;
-    box-sizing: border-box;
-}
-
-#sections a,  #kids-menu a,#adults-menu a  {
-    color: var(--light-white);
-    text-decoration : none;
-    font-size: 2rem;
-}
-
 /* About Us */
 
 #about, #kids {
     margin: auto;
     clear: both;
-    
 }
 
 .section-heading {
@@ -253,7 +207,6 @@ hr {
     font-size: 175%; 
     line-height: 3rem; 
     margin-left: 2rem; 
-    /* float: left; */
 }
 
 #about-text h2,#kids-text h2, #adults-text h2 {
@@ -288,9 +241,6 @@ hr {
     margin-left: 2rem; 
     margin-top: 2rem;  
     padding-right: 2rem;
-    
-    
-    /* float: left; */
 }
 
 .section-text h2 {
@@ -311,21 +261,6 @@ hr {
     padding-bottom: .5rem;
 }
 
-#latest-news {
-    clear: both;
-    margin: auto;
-
-    /* line-height: 1; */
-    /* column-count: 1;
-    column-gap: .5rem; */
-}
-
-#latest-news > p {
-    width: 100%;
-    padding: 5rem;
-    /* border: 2px solid red; */
-}
-
 #contact-us {
     text-align: center; 
     font-weight: bold;
@@ -335,18 +270,11 @@ hr {
 
 /* Form */
 
-/* #question-section {
-    height: 20rem;
-} */
-
 #question-form
 {
-    /* margin: 150px 10% 0 0; */
     background-color: var(--dark-green);
     color: var(--light-white);
     max-width: 400px;
-    /*position: absolute;
-    left:10%; */
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -453,33 +381,16 @@ footer {
         float:left;
     }
 
-    #kids-menu > div {
-        width: 20%;
-        padding: 2rem 0;
-        float:left;
-    }
-
-    /* #image-right {
-        width: 40%; 
-    } */
-
-    #about-text, #kids-text, #latest-news-text, #adults-text  {
+    #about-text, #kids-text, #adults-text  {
         padding-left: 2em;
         width: 50%;
-
     }
 
-    #latest-news-text  {
-        padding-left: 2em;
-        width: 50%;
-        clear: both;
-
-    }
     .section-text {
         padding-left: 2em;
         width: 50%;
-
     }
+
     .content {
         margin-top:2rem;
         display:flex;
@@ -488,11 +399,6 @@ footer {
     #gallery {
         column-count: 3;
     }
-    
-    
-    /* #latest-news {
-        column-count: 2;
-    } */
     
 }
 
@@ -510,12 +416,6 @@ footer {
         float:left;
     }
 
-    #kids-menu > div {
-        width: 20%;
-        padding: 2rem 0;
-        float:left;
-    }
-
     .image-right {
         width: 40%; 
     }
@@ -524,7 +424,4 @@ footer {
         column-count: 3;
     }
 
-    /* #latest-news {
-        column-count: 2;
-    } */
 }
