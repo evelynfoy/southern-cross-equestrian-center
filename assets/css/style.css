@@ -81,6 +81,9 @@ hr {
 }
 
 /* Hero Image */
+/* Based on code from Love Running project */
+/* Creating one div with a background image inside a second div of the same size with an overflow value of hidden and creating an animation 
+/* to scale up the imaged div gives the illusion of zooming in when loaded */
 
 #hero-outer {
     height: 50rem;
@@ -111,6 +114,7 @@ hr {
     }
 }
 
+/* End Hero Image */
 
 /* Slogan */
 
