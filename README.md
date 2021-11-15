@@ -25,21 +25,21 @@ The wireframes are below:
 ### [ContactUs Tablet Wireframe](docs/wireframes/ContactUs-Tablet.png "Home Tablet wireframe")
 ### [ContactUs Phone Wireframe](docs/wireframes/ContactUs-Phone.png "Home Phone wireframe")
 
-After discussions with my mentor I decided to change the design a bit and move the images down to the sections ares to make them more interesting and I also left them larger and a more natural rectangular shape. I also changed the design from a three page site to a single page site again on advice from my mentor to make it more suitable for scrolling down on a phone.  
+On commencement of the project and after discussions with my mentor, I decided to change the design a bit and move the images down to the section areas to make them more interesting. I also left them larger and a more natural rectangular shape. 
+
+I had originally designed this to have three separate pages but changed it on the advice of my mentor as it provides a better mobile first experiance for the user.
+Each section leads to the next leading to the invited conclusion of them making contact.
 
 ## Features 
 
-The site consists of a single scrollable page with a hero image, an navigation bar, various content featuring images, a gallery section and a contact us section which also includes contact details, directions a map and a submit form for questions. 
+The site consists of a single scrollable page with a hero image, an navigation bar, various content featuring images, a gallery section and a contact us section which also includes contact details, directions, a map and a submit form for questions. 
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured at the top of the page, the full responsive navigation bar includes links to the top or home section, Gallery and Contact Us sections. 
-  - This allows the user to easily scroll down through the content. The back to top link is available after each section.
-
-  - I had originally designed this to have three separate pages but changed it on the advice of my mentor as it provides a better mobile first experiance for the user.
-  - Each section leads to the next leading to the invited conclusion of them making contact.
+  - Featured at the top of the page, the fullly responsive navigation bar includes links to the top or home section, Gallery and Contact Us sections. 
+  - This allows the user to easily scroll down through the content. The 'back to top' link is available after each section.
 
 ![Nav Bar](docs/images/NavBar.png)
 
@@ -52,39 +52,39 @@ The site consists of a single scrollable page with a hero image, an navigation b
 
 - __Inpirational Section__
 
-  - The inspirational section will make the user imagine what it would be like to try riding in general and then encourage them to contact it by assuring them that it caters for everyone and also gives a taste of the options it offers. IT then encourates them to contact the centre by providing a link to the contact section. 
+  - The inspirational section will make the user imagine what it would be like to try riding in general and then encourage them to contact the centre by assuring them that it caters for everyone and also gives a taste of the options it offers. It then encourates them to contact the centre by providing a link to the contact section. 
 
 ![Inspirational Section](docs/images/inspirational-section.png)
 
 - __Welcome or About section__
 
-  - This section gives some information about the centre and what it stands for . 
+  - This section gives some information about the centre and what it stands for. 
   - It provides a link to Aire - The Association of Irisk Riding Establishments - citing that the centre is fully approved. 
 
 ![Welcome Section](docs/images/welcome-section.png)
 
-__Kids section__
+- __Kids section__
 
   - This section focuses on kids, highlighting the fact that the centre is suitable for and welcomes kids. 
-  - It also includes an image showing kids onb horseback having fun. 
+  - It also includes an image showing kids on horseback having fun. 
 
 ![Kids Section](docs/images/kids-section.png)
 
-__Adults section__
+- __Adults section__
 
   - This section focuses on adults, highlighting the fact that the centre is also suitable for adults. 
   - It also includes an image showing adults on horseback having fun. 
 
 ![Adults Section](docs/images/adults-section.png)
 
-__Livery section__
+- __Livery section__
 
   - This section focuses on the livery service also provided extoling the virtues of keeping your horse or pony at the centre.
   - It also includes an image showing an horse in a rug looking content. 
 
 ![Livery Section](docs/images/livery-section.png)
 
-__Gallery section__
+- __Gallery section__
 
   - The gallery will provide the user with supporting images to see what fun it is to ride at the centre. 
   - This section is valuable to the user as they will be able to easily identify the types of activities that take place at the centre. 
@@ -93,7 +93,7 @@ __Gallery section__
 
 - __The Contact Us Section__
 
-  - This page will allow the user to get in contact with the centre in a number of ways. The phone number , address and email details are provided along with a form they can fill in to ask a question. There is validation which ensures all fields are filled out prior to submission. It also provides directions to the centre including a map.
+  - This page will allow the user to get in contact with the centre in a number of ways. The phone number, address and email details are provided along with a form they can fill in to ask a question. There is validation which ensures all fields are filled out prior to submission. It also provides directions to the centre including a map.
 
 ![Contact Us](docs/images/contact-us-section.png)
 ![Contact Us](docs/images/directions-section.png)
@@ -147,7 +147,7 @@ First I tested the site on a mobile device
     I filled that in and clicked submit.
     A validation message appeared requesting I fill in the 'Go for it' field with my query.
     I filled that in and clicked submit.
-    A success message appeared stating that my form had been recived by the Southern Cross Equestrian Centre.
+    A success message appeared stating that my form had been received by the Southern Cross Equestrian Centre.
     As I clicked each field I saw that the border changed color as a visual aid.
 12) I clicked 'Back to top' and scrolled through again.
     The Welcome section appeared correctly.
@@ -161,7 +161,7 @@ First I tested the site on a mobile device
     The images were reduced in size and looked sharp and clear and not distorted. 
 16) I checked the social media icons in the footer and noticed that one icon was appearing below the others.
     I returned to the code and changed the css to reduce the space in between the icons for small screens. 
-17) I clicked each socila media icon and confirmed that all were working.
+17) I clicked each social media icon and confirmed that all were working.
 
 I then tested the site on a tablet and confirmed that it displayed as exected.
 I then tested it on a desktop and confirmed that it displayed there correctly also.
@@ -170,6 +170,8 @@ For these the large hero image was displayed, images were displayed beside the a
 The map was displayed beside the directions.
 
 I noted the site was easy to use and navigate around. I was able to find various information easily and the experiance was pleasant.
+The links changes font size as I hovered over them as a visual guide.
+The border of the input fields also changed color when hovered over.
 
 ### Validator Testing 
 - HTML
